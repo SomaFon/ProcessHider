@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="其他">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{899890b0-fe19-4e6f-9f12-6dd512b45dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trampoline">
+      <UniqueIdentifier>{2e4d919d-0956-4784-92d7-4c76d385ca5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde">
+      <UniqueIdentifier>{bff6e9dd-15c1-443b-81b6-ae3baa44b965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主要">
+      <UniqueIdentifier>{3edeca54-134b-4202-b539-2ff33435d361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>其他</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampoline.h">
+      <Filter>Trampoline</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde32.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table32.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniHook-Dll.h">
+      <Filter>主要</Filter>
+    </ClInclude>
+    <ClInclude Include="Fake.h">
+      <Filter>主要</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>其他</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampoline.cpp">
+      <Filter>Trampoline</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde32.c">
+      <Filter>hde</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.c">
+      <Filter>hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>主要</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniHook-Dll.cpp">
+      <Filter>主要</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalHook.cpp">
+      <Filter>主要</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>Buffer</Filter>
+    </None>
+  </ItemGroup>
+</Project>

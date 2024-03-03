@@ -1,0 +1,11 @@
+LIBRARY
+EXPORTS
+	 SeInitialize
+	 SeUninitialize
+	 SeCreateHook
+	 SeEnableHook
+	 SeDisableHook
+	 SetHook
+	 UnsetHook
+
+	   
